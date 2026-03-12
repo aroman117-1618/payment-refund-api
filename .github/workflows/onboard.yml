@@ -20,6 +20,7 @@ jobs:
       - name: Onboard Payment Refund API
         uses: postman-cs/postman-api-onboarding-action@v0
         with:
+          workspace-id: 00d39779-ed9d-4c25-afd2-5d0eb884a1c0
           project-name: payment-refund-api
           domain: payments
           domain-code: PAY
